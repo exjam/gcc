@@ -847,7 +847,7 @@ endif
 # libgcc_eh.a, only LIB2ADDEH matters.  If we do, only LIB2ADDEHSTATIC and
 # LIB2ADDEHSHARED matter.  (Usually all three are identical.)
 
-c_flags := -fexceptions
+c_flags := -fno-exceptions
 
 ifeq ($(enable_shared),yes)
 
